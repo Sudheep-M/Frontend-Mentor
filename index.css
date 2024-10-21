@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    line-height: 45px;
+    background-color: white;
+}
+a{
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+#space{
+    margin-top: 5px;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.218);
+}
+.navbar a:hover{
+    color: #007791;
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #8cd09e;
+    height: 750px;
+    width: 100%;
+}
+#event{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    line-height: 40px;
+}
+#circle{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 400px;
+    width: 400px;
+    border-radius: 400px;
+    background-color: #86cb98;
+    line-height: normal;
+}
+#outer{
+    display: flex;
+    width: 450px;
+    height: 1200px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 10px 20px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-bottom: 10px;
+}
+#inner{
+    padding: 20px;
+    display: flex;
+    width: 400px;
+    height: 1150px;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+input[type="text"]{
+    border: none;
+    border-bottom: 2px solid;
+    height: 50px;
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+input[type="submit"]{
+    width: 120px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+hr{
+    margin-top: 150px;
+    width: 100%;
+    border: 1px solid gray;
+}
+#about a{
+    color: gray;
+}
